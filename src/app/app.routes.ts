@@ -1,0 +1,39 @@
+import { Routes } from '@angular/router';
+
+import { HomeComponent } from './pages/home/home.component';
+import { AccordionComponent } from './pages/accordion/accordion.component';
+import { CarouselComponent } from './pages/carousel/carousel.component';
+import { CollapseComponent } from './pages/collapse/collapse.component';
+import { DropdownComponent } from './pages/dropdown/dropdown.component';
+import { InputNumberComponent } from './pages/input-number/input-number.component';
+import { OverlayComponent } from './pages/overlay/overlay.component';
+import { PinInputComponent } from './pages/pin-input/pin-input.component';
+import { RemoveElementComponent } from './pages/remove-element/remove-element.component';
+import { ScrollspyComponent } from './pages/scrollspy/scrollspy.component';
+import { SelectComponent } from './pages/select/select.component';
+import { StepperComponent } from './pages/stepper/stepper.component';
+import { StrongPasswordComponent } from './pages/strong-password/strong-password.component';
+import { TabsComponent } from './pages/tabs/tabs.component';
+import { ToggleCountComponent } from './pages/toggle-count/toggle-count.component';
+import { TogglePasswordComponent } from './pages/toggle-password/toggle-password.component';
+import { TooltipComponent } from './pages/tooltip/tooltip.component';
+
+export const routes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'accordion', component: AccordionComponent },
+  { path: 'carousel', component: CarouselComponent },
+  { path: 'collapse', component: CollapseComponent },
+  { path: 'dropdown', component: DropdownComponent },
+  { path: 'input-number', component: InputNumberComponent },
+  { path: 'overlay', component: OverlayComponent },
+  { path: 'pin-input', component: PinInputComponent },
+  { path: 'remove-element', component: RemoveElementComponent },
+  { path: 'scrollspy', component: ScrollspyComponent },
+  { path: 'select', component: SelectComponent },
+  { path: 'stepper', component: StepperComponent },
+  { path: 'strong-password', component: StrongPasswordComponent },
+  { path: 'tabs', component: TabsComponent },
+  { path: 'toggle-count', component: ToggleCountComponent },
+  { path: 'toggle-password', component: TogglePasswordComponent },
+  { path: 'tooltip', component: TooltipComponent },
+];
